@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Home" />
+        <item android:id="@+id/nav_logIn" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Log In" />
+        <item android:id="@+id/nav_NewArrivals" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="New Arrivals" />
+        <item android:id="@+id/nav_onSale" android:icon="@android:drawable/ic_menu_manage"
+            android:title="On Sale" />
+        <item android:id="@+id/nav_upComingSales" android:icon="@android:drawable/ic_menu_manage"
+            android:title="UpComing Sales" />
+        <item android:id="@+id/nav_Category" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Category" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item android:id="@+id/nav_privacy" android:icon="@android:drawable/ic_menu_share"
+                android:title="Privacy Policy" />
+            <item android:id="@+id/nav_FAQ" android:icon="@android:drawable/ic_menu_send"
+                android:title="FAQ" />
+            <item android:id="@+id/nav_about" android:icon="@android:drawable/ic_menu_send"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
